@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: chocolate;
+    width: 100%;
+    height: 100vh;
+}
+.gameName{
+    position: relative;
+    top: 70px;
+    font-size: 20px;
+    text-align: center;
+    font-kerning: ;
+}
+.game {
+    width: 100%;
+    height: 100%;
+   background-image: url(Backdrop.jpeg);
+   background-size: 100% 100%;
+   margin: auto;
+  }
+  
+  #dino {
+    width: 314px;
+    height: 610px;
+    background-image: url(fatman.png);
+    background-size: 220px 320px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 375px;
+  }
+  
+  .jump {
+    animation: jump 0.3s linear;
+  }
+  
+  @keyframes jump {
+    0% {
+      top: 250px;
+    }
+  
+    50% {
+      top: 50px;
+    }
+  
+    100% {
+      top: 250px;
+    }
+  }
+  
+  #cactus {
+    width: 314px;
+    height:610px;
+    position: relative;
+    top: -70px;
+    left: 225px;
+    background-repeat: no-repeat;
+    background-image: url("ghost.png");
+    background-size: 170px;
+  
+    animation: block 1s infinite linear;
+  }
+  
+  @keyframes block {
+    0% {
+      left: 980px;
+    }
+    50%{
+        left: 500px;
+    }
+    100% {
+      left: -20px;
+    }
+  }

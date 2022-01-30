@@ -1,0 +1,26 @@
+.grid{
+    width: 606px;
+    height: 606px;
+    display:flex;
+    flex-wrap: wrap;
+    background-image: url('bg.png');
+}
+.square{
+    height: 200px;
+    width: 200px;
+    border: solid 1px black;
+}
+.mole{
+    background-image: url('mole.webp');
+    background-size: cover;
+}
+.score{
+    display: flex;
+    flex-wrap: wrap;
+}
+.game {
+  background-color: rgba(149,178,255,255);
+   background-size: 100% 100%;
+ fill: pink;
+
+  }

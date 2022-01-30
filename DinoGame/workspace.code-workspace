@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../cCode"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"stdlib.h": "c"
+		},
+		"liveServer.settings.multiRootWorkspaceName": "DinoGame"
+	}
+}
